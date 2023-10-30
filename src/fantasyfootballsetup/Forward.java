@@ -8,6 +8,14 @@ package fantasyfootballsetup;
  *
  * @author moogi
  */
-public class Forward {
+public class Forward extends Player {
+    
+    
+    int numGoalsScored;
+
+    public Forward(int numGoalsScored, String fname, String lname, String country, int age, String position) {
+        super(fname, lname, country, age, position);
+        this.numGoalsScored = numGoalsScored;
+    }
     
 }
